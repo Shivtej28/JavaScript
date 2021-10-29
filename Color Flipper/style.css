@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f1f5f8;
+    font-size: 1rem;
+}
+
+h4{
+
+    font-size: 1rem;
+    line-height: 1.5;
+    
+}
+
+.nav-center h4{
+    color: blue;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1;
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+    font-weight: 3000;    
+}
+
+nav{
+    background: white;
+    height: 3rem;
+    align-items: center;
+    display: grid;
+    box-shadow: darkgray;
+}
+
+.nav-center{
+    width: 90vw;
+    max-width: 620px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li{
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: blueviolet;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.nav-links{
+    display: flex;
+   
+}
+
+main{
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2{
+    background: #222;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.color {
+    color: lightseagreen;
+}
+
+.btn-hero{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.btn{
+    text-transform: uppercase;
+    color:#222;
+    background: transparent;
+    letter-spacing: 0.16rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    border: 2px solid black;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s linear;
+}
+
+.btn:hover{
+    background:#222;
+    color: white;
+}
